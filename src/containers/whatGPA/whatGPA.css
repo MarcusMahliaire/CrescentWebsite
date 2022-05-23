@@ -1,0 +1,126 @@
+.website__whatgpa {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem; 
+    padding: 2rem;
+    border-radius: 20px;
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #168AAD 25%, #0b49a7 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #168AAD 25%, #0b49a7 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #168AAD 25%, #0b49a7 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #168AAD 25%, #0b49a7 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #168AAD 25%, #0b49a7 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.website__whatgpa-feature {
+    display: flex;
+}
+
+.website__whatgpa-feature .website__features-container__feature {
+    margin: 0;
+}
+
+.website__whatgpa-feature .website__features-container__feature-text {
+    max-width: 700px;
+}
+
+.website__whatgpa-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0 2rem;
+}
+
+.website__whatgpa-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    max-width: 800px;
+    font-family: var(--font-family);
+}
+
+.website__whatgpa-heading img {
+    width: 50%;
+    height: 50%;
+}
+
+.website__whatgpa-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.website__whatgpa-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.website__whatgpa-container .website__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.website__whatgpa-container .website__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .website__whatgpa-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .website__whatgpa-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .website__whatgpa-feature .website__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .website__whatgpa-feature .website__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .website__whatgpa-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .website__whatgpa-container .website__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
