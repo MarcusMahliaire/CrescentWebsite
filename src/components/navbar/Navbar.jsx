@@ -29,7 +29,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="website__navbar-sign">
+        <a href="http://localhost:3000/Login">
         <p>Sign in</p>
+        </a>
         <button type="button">Sign up</button>
       </div>
       <div className="website__navbar-menu">
