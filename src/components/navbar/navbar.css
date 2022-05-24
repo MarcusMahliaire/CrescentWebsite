@@ -21,6 +21,7 @@
     width: 125px;
     height: 125px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .website__navbar-links_container {
@@ -52,7 +53,7 @@
 .website__navbar-sign button,
 .website__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color: #fff;
+    color: white;
     background: #0b49a7;
     font-family: var(--font-family);
     font-weight: 500;
@@ -66,13 +67,14 @@
 
 .website__navbar-menu {
     margin-left: 1rem;
-
     display: none;
     position: relative;
+    
 }
 
 .website_navbar-menu svg {
     cursor: pointer;
+    
 }
 
 .website__navbar-menu_container {
@@ -83,13 +85,13 @@
     z-index: 1;
 
     text-align: end;
-    background: var(--color-footer);
+    background: lightblue;
     padding: 2rem;
     position: absolute;
     top: 40px;
     right: 0;
     margin-top: 1rem;
-    border-radius: 5px;
+    border-radius: 25px;
     box-shadow: 0 0 5 rgba(0,0,0,0.2)
 }
 

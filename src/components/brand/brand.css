@@ -3,16 +3,50 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-width: 120px;
+    min-width: 100px;
+    
 }
 
-.website__brand div {
-    flex: 1;
-    max-width: 150px;
-    min-width: 120px;
-    margin: 1rem;
-
+.website__brand-content__input {
+    
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    min-width: 100px;
+}
+
+.website__brand-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    background: lightblue;
+    border: 2px solid lightblue;
+    padding: 0 1rem;
+    outline: none;
+    outline-color: black;
+    color: black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.website__brand-content__input button {
+    flex: 0.7;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background: #0b49a7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    
 }

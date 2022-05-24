@@ -14,7 +14,9 @@ const Footer = () => {
 
       <div className="website__footer-links">
         <div className="website__footer-links_logo">
+          <a href="http://localhost:3000/">
           <img src={logo} alt="logo" />
+          </a>
         </div>
         <div className="website__footer-links_div">
           <h4>Links</h4>

@@ -4,16 +4,12 @@ import people from '../../assets/people.png'
 import Field from '../../assets/field.mp4'
 
 const Header = () => {
+
   return (
     <div className="website__header section__margin fade-in-bottom" id="home">
-      
       <div className="website__header-content">
         <h1>Welcome to Crescent, Where We Strive To Make Farming Easier.</h1>
         <p>We Assist In Making Food Production More Reliable.</p>
-        <div className="website__header-content__input">
-          <input type="email" placeholder="Your email address"  />
-          <button type="button">Inquire</button>
-        </div>
         <div className="website__header-content__people">
           <img src={people} alt="face img"/>
           <p>260 people have inquired about a product in the last 30 days</p>
