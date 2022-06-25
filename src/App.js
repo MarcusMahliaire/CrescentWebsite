@@ -4,8 +4,7 @@ import './App.css'
 import { Home, About, NoPage, Login } from './pages';
 
 import Navbar from './components/navbar/Navbar'
-import Footer from './containers/footer/Footer'
-
+import Footer from './containers/footer/Footer';
 
 
 const App = () => {

@@ -7,20 +7,20 @@ const Features = () => {
 
   const featuresData = [
     {
-      title: 'Wheat Grass',
-      text: 'Growing the finest Wheat Grass of all the lands'
+      title: 'Vegetables',
+      text: 'Growing nutritious reliable vegetables'
     },
     {
       title: 'Green House',
-      text: 'Cheap but efficient growing process'
+      text: 'Efficient and effective growing process'
     },
     {
       title: 'Hydroponics',
-      text: 'Not really hydroponics but we use water and robots'
+      text: 'Working around rain fall'
     },
     {
       title: 'Automation',
-      text: 'Taking the labor out of farming and just providing foodS'
+      text: 'Consistent reliable vegetables without the hard labor'
     },
   ]
   
@@ -28,8 +28,8 @@ const Features = () => {
   return (
     <div className="website__features section__padding fade-in-bottom" id="features">
       <div className="website__features-heading">
-        <h1>Bringing Food Back to The World And The Camels.</h1>
-        <p>Link for future purposes</p>
+        <h1>Bringing Food Back to The World.</h1>
+        {/* <p>Link for future purposes</p> */}
       </div>
       <div className="website__features-container">
         {featuresData.map((item, index) => (

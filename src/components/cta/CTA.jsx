@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <div className="website__cta">
       <div className="website__cta-content">
-        <p>Ready To Try AutoWaterBotics?</p>
+        <p>Ready To Try Crescent Foods?</p>
         <h2>Connect With Us!</h2>
       </div>
       <div className="website__cta-btn">

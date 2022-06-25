@@ -1,5 +1,5 @@
 import React from 'react'
-import Blog from '../../containers/blog/Blog';
+// import Blog from '../../containers/blog/Blog';
 import Possibility from '../../containers/possibility/Possibility';
 import Features from '../../containers/features/Features';
 import WhatGPA from '../../containers/whatGPA/WhatGPA';
@@ -8,6 +8,7 @@ import WhatGPA from '../../containers/whatGPA/WhatGPA';
 import CTA from '../../components/cta/CTA';
 import Brand from '../../components/brand/Brand';
 import Header from '../../containers/header/Header';
+
 
 
 
@@ -21,7 +22,7 @@ const Home = () => {
       <Features />
       <Possibility />
       <CTA />
-      <Blog />
+      {/* <Blog /> */}
     </div>
   )
 }

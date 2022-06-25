@@ -1,7 +1,7 @@
 import React from 'react';
 import './whatGPA.css';
 import { Feature } from '../../components';
-import grapes from '../../assets/grapes.jpg'
+import grapes from '../../assets/hydro.jpg'
 
 
 const WhatGPA = () => {
@@ -15,7 +15,7 @@ const WhatGPA = () => {
           <img src={grapes} alt="cutting board" />
         </div>
       <div className="website__whatgpa-container">
-        <Feature title="Wheat Grass" text="Organic Wheat Grass" />
+        <Feature title="Hydroponics" text="Consistent reliable growth" />
         <Feature title="Automation" text="Automated Farming System" />
         <Feature title="Greenhouses" text="All in Green Houses" />
       </div>

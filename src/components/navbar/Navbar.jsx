@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="website__navbar-sign">
-        <a href="http://localhost:3000/Login">
+        <a href="http://localhost:3000">
         <p>Sign in</p>
         </a>
         <button type="button">Sign up</button>
